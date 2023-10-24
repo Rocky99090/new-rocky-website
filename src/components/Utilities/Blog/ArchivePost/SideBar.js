@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Jsondata from "../blogs-data.json"
+import { Blogs} from "../blogs-data";
 
-const recentPosts = Jsondata.Blogs
+const recentPosts = Blogs
 
 
 const SideBar = () => {

@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 
 import img1 from '../../../../assets/img/blog/b_details01.jpg'
 import img2 from '../../../../assets/img/blog/b_details02.jpg'
-import JsonData from '../blogs-data.json'
+import { Blogs} from "../blogs-data";
 
 const PostContent = () => {
      const params = new URLSearchParams(window.location.search);
      const id = params.get('id');
-     const data = JsonData.Blogs
+     const data = Blogs
      const matchingPost = data.find(post => post.id === parseInt(id));
     return (
         <div className="details__content pb-30">

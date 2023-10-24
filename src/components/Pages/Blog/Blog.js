@@ -8,8 +8,8 @@ import postThumb1 from '../../../assets/img/blog/inner_b1.jpg';
 import postThumb2 from '../../../assets/img/blog/inner_b2.jpg';
 import postThumb3 from '../../../assets/img/blog/inner_b3.jpg';
 import HeroThree from "../../Utilities/Hero/HeroThree/HeroThree";
-import Jsondata from "../../Utilities/Blog/blogs-data.json"
-const psots = Jsondata.Blogs
+import { Blogs } from "../../Utilities/Blog/blogs-data";
+const psots = Blogs
 
 const BlogPost = () => {
     useEffect(() => {

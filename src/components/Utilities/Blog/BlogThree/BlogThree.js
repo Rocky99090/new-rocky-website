@@ -4,9 +4,9 @@ import blogImg1 from '../../../../assets/img/blog/inner1.jpeg';
 import blogImg2 from '../../../../assets/img/blog/inner1.jpeg';
 import blogImg3 from '../../../../assets/img/blog/inner_b3.jpg';
 import BlogCard from "../BlogCard";
-import JsonData from '../blogs-data.json'
+import { Blogs} from "../blogs-data";
 
-const data  = JsonData.Blogs
+const data  = Blogs
 const BlogThree = () => {
     return (
         <section id="blog" className="blog-area style-two p-relative pt-10 pb-0 fix">
