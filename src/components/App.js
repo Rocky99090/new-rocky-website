@@ -32,6 +32,7 @@ const App = () => {
 
         <Switch>
 
+          <Route exact path="/new-rocky-website/" component={Home} />
           <Route exact path="/" component={Home} />
           <Route exact path="/home-two" component={HomeTwo} />
           <Route exact path="/home-three" component={HomeThree} />
@@ -47,7 +48,7 @@ const App = () => {
           <Route exact path="/blog" component={BlogPost} />
           <Route exact path="/single-post" component={SinglePost} />
           <Route exact path="/contact" component={ContactUs} />
-
+          /new-rocky-website/
         </Switch>
         
         {/* Footer */}
