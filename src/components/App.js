@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, BrowserRouter, Routes } from 'react-router-dom';
 
 import Header from './Utilities/Header/Header';
 import Home from './Pages/Home/HomeMain/HomeMain';
@@ -24,37 +24,36 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 const App = () => {
   return (
     <ParallaxProvider>
-    <Router>
+    <BrowserRouter>
       <div className="App">
 
         {/* Header */}
         <Header />
 
-        <Switch>
+        <Routes>
 
-          <Route exact path="/new-rocky-website/" component={Home} />
-          <Route exact path="/" component={Home} />
-          <Route exact path="/home-two" component={HomeTwo} />
+          <Route exact path="/" element={<Home />} />
+          
           <Route exact path="/home-three" component={HomeThree} />
-          <Route exact path="/about" component={AboutUs} />
-          <Route exact path="/gallery" component={Gallery} />
-          <Route exact path="/team" component={Teams} />
-          <Route exact path="/faq" component={Faqs} />
-          <Route exact path="/game" component={Games} />
-          <Route exact path="/matchese" component={Matchese} />
+          <Route exact path="/about" element={<AboutUs />} />
+          <Route exact path="/gallery" element={<Gallery />} />
+          {/* <Route exact path="/team" component={Teams} /> */}
+          {/* <Route exact path="/faq" component={Faqs} /> */}
+          {/* <Route exact path="/game" component={Games} /> */}
+          {/* <Route exact path="/matchese" component={Matchese} />
           <Route exact path="/matchese-details" component={MatcheseDetails} />
-          <Route exact path="/live-streaming" component={LiveStreaming} />
-          <Route exact path="/404" component={Error404} />
-          <Route exact path="/blog" component={BlogPost} />
-          <Route exact path="/single-post" component={SinglePost} />
-          <Route exact path="/contact" component={ContactUs} />
-          /new-rocky-website/
-        </Switch>
+          <Route exact path="/live-streaming" component={LiveStreaming} /> */}
+          <Route exact path="/404"  element={<Error404 />} />
+          <Route exact path="/blog"  element={<BlogPost />} />
+          <Route exact path="/single-post"  element={<SinglePost />} />
+          {/* <Route exact path="/contact" component={ContactUs} /> */}
+
+        </Routes>
         
         {/* Footer */}
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
     </ParallaxProvider>
   );
 }
