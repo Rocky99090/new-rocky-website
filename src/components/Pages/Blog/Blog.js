@@ -24,10 +24,8 @@ const BlogPost = () => {
             <HeroThree />
 
             <section className="inner-blog pb-90">
-                <div className="container">
-                    <div className="row">
+
                     <section id="work" className="pt-0 pb-10" >
-            <div className="container ">
                 <div className="portfolio ">
                     
                     <div className="grid col4 ">
@@ -35,7 +33,7 @@ const BlogPost = () => {
                               psots.map((data, index) => {
                                 const { imageUrl, admin, title, excerpt,id } = data;
                                 return (
-                                    <div className="grid-item1" key={index}>
+                                    <div className="grid-item1 ml-4" key={index}>
                                             <figure className="gallery-image">
                                                 <img src={imageUrl} alt="img" className="img" />
                                                 <figcaption>
@@ -50,13 +48,10 @@ const BlogPost = () => {
                     </div>
                    
                 </div>
-            </div>
            
         </section>
                         {/* Right Sidebar */}
                         
-                    </div>
-                </div>
             </section>
            
         </React.Fragment>

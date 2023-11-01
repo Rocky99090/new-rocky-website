@@ -1,5 +1,5 @@
 
-import img from '../../../assets/img/blog/blog1.jpeg'
+import img from '../../../assets/img/blog/blog-img.jpg'
 export const Blogs = 
 [
     {

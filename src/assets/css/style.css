@@ -6040,6 +6040,7 @@ section:hover .section-title h2:before {
 	-webkit-box-align: center;
 	-ms-flex-align   : center;
 	align-items      : center;
+	justify-content: center;
 	-ms-flex-wrap    : wrap;
 	flex-wrap        : wrap;
 }
