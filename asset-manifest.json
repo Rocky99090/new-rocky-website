@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.68c947cd.css",
-    "main.js": "/static/js/main.3de4b4bc.js",
+    "main.css": "/static/css/main.82a11cf1.css",
+    "main.js": "/static/js/main.60c7e358.js",
     "static/media/10000000___n.mp4": "/static/media/10000000_5064819053625905_5200073652305046777_n.1aac199feffefb7984bf.mp4",
     "static/media/about-final.jpg": "/static/media/about-final.11f0dc2e33371bdca4fb.jpg",
     "static/media/hero-9.jpg": "/static/media/hero-9.ba92d9d4f55b15b1c41f.jpg",
@@ -93,6 +93,7 @@
     "static/media/about-img4.jpg": "/static/media/about-img4.8ab8389f128ec894b1a1.jpg",
     "static/media/playingsite2.png": "/static/media/playingsite2.d4fd12ab591251eda687.png",
     "static/media/team_img07.png": "/static/media/team_img07.6cbdb677cf022ee0653f.png",
+    "static/media/blog-img.jpg": "/static/media/blog-img.9f66e64a84c8148d9fa4.jpg",
     "static/media/team_img05.png": "/static/media/team_img05.3dc6a506631005a0e5b3.png",
     "static/media/team_img02.png": "/static/media/team_img02.bbd4a98e021771d3d359.png",
     "static/media/hero-13.jpeg": "/static/media/hero-13.a0a2fb0eecb3673c112e.jpeg",
@@ -106,7 +107,6 @@
     "static/media/video-img7.png": "/static/media/video-img7.521a05193024016755d8.png",
     "static/media/error-bg.png": "/static/media/error-bg.ba94a840e85b627920b1.png",
     "static/media/slider_img05.png": "/static/media/slider_img05.56ebca3731cfcdd9d3d2.png",
-    "static/media/blog1.jpeg": "/static/media/blog1.459897b64302ff4d8f49.jpeg",
     "static/media/inner1.jpeg": "/static/media/inner1.459897b64302ff4d8f49.jpeg",
     "static/media/testi_avatar.png": "/static/media/testi_avatar.7844136e62417e9da50c.png",
     "static/media/video-img4.png": "/static/media/video-img4.8292fc276b962940f533.png",
@@ -137,11 +137,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.68c947cd.css.map": "/static/css/main.68c947cd.css.map",
-    "main.3de4b4bc.js.map": "/static/js/main.3de4b4bc.js.map"
+    "main.82a11cf1.css.map": "/static/css/main.82a11cf1.css.map",
+    "main.60c7e358.js.map": "/static/js/main.60c7e358.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c947cd.css",
-    "static/js/main.3de4b4bc.js"
+    "static/css/main.82a11cf1.css",
+    "static/js/main.60c7e358.js"
   ]
 }
