@@ -44,7 +44,7 @@
 
 
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 2000px) {
     .portfolio .col4 .grid-item {
         width  : 24.9%;
         margin : 0;

@@ -28,8 +28,8 @@ const BlogPost = () => {
             <div className="row align-items-center mb-0 wow fadeInUp animated" data-animation="fadeInRight" data-delay=".4s">
                         <div className="col-lg-12 text-center">
                             <SectionTitle
-                                titlefirst='BLOGS'
-                                titleSec='SECTION' />
+                                titlefirst='OUR'
+                                titleSec='BLOGS' />
                         </div>
                     </div>
                     <section id="work" className="pt-0 pb-10" >
@@ -41,12 +41,14 @@ const BlogPost = () => {
                                 const { imageUrl, admin, title, excerpt,id } = data;
                                 return (
                                     <div className="grid-item1 ml-4" key={index}>
+                                        <Link to={`/single-post?id=${id}`}>
                                             <figure className="gallery-image">
                                                 <img src={imageUrl} alt="img" className="img" />
                                                 <figcaption>
-                                                    <h4><Link to={`/single-post?id=${id}`}>{title}</Link></h4>
+                                                    <h4>{title}</h4>
                                                 </figcaption>
                                             </figure>
+                                            </Link>
                                     </div>
                                     
                                 )

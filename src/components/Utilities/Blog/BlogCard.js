@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import img1 from '../../../assets/img/blog/b_details01.jpg'
 import img2 from '../../../assets/img/blog/b_details02.jpg'
@@ -6,23 +6,49 @@ import img3 from '../../../assets/img/blog/b_details03.jpg'
 import img4 from '../../../assets/img/blog/b_details04.jpg'
 
 const BlogCard = ({ blogData }) => {
+    const [isExpanded, setExpanded] = useState(false);
+
+    const toggleExpand = () => {
+      setExpanded(!isExpanded);
+    };
     return (
         <Fragment>
             {
-                blogData.map(data => {
-                    const { id, imageUrl, title, admin, date, excerpt } = data;
-                    return (
-                        <div className="col-lg-6 col-md-6" key={id}>
-                            <div className="single-post2 mb-30  p-relative wow fadeInDown animated" data-animation="fadeInRight" data-delay=".4s">
-                                <div className="blog-thumb2">
-                                    <Link to = {`/single-post?id=${id}`}>
-                                        <img src={imageUrl} alt="img" />
-                                    </Link>
+                <div className="portfolio ">
+                    
+                <div className="grid col4 ">
+                    {
+                          blogData.map((data, index) => {
+                            const { imageUrl, admin, title, excerpt,id,heading } = data;
+                            const words = excerpt.split(' ');
+                            const truncatedText = isExpanded ? words.join(' ') : words.slice(0, 20).join(' ');
+
+
+                            return (
+                                <div className="grid-item3 ml-4" key={index}>
+                                    <Link to={`/single-post?id=${id}`}>
+                                        <figure className="gallery-image">
+                                            <img src={imageUrl} alt="img" className="img" />
+                                            <figcaption>
+                                                
+                                                <h4>{title}</h4>
+                                                <p>{truncatedText}</p>
+                                                {words.length > 10 && (
+                                                    <h5 style={{display:"flex",flexDirection:"row-reverse"}} onClick={toggleExpand}>
+                                                    {isExpanded ? 'Read Less' : 'Read More....'}
+                                                    </h5>
+                                                )}
+                                            </figcaption>
+                                        </figure>
+                                        </Link>
                                 </div>
-                            </div>
-                        </div>
-                    )
-                })
+                                
+                            )
+                        })
+                    }
+                </div>
+               
+            </div>
             }
         </Fragment>
     )
