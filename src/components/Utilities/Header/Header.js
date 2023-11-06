@@ -42,7 +42,7 @@ const Header = () => {
                                                 <li><Link to={'/about'}>{'About Us'}</Link>
                                                 </li>
                                                 <li><Link to={'/gallery'}>{'Gallery'}</Link></li>
-                                                <li><Link to={'/blog'}>{'Blogs'}</Link></li>
+                                                <li><Link to={'/blogs'}>{'Blogs'}</Link></li>
                                             </ul>
                                         </nav>
                                     </div>

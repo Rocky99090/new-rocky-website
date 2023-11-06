@@ -4,6 +4,7 @@ import img1 from '../../../../assets/img/blog/b_details01.jpg'
 import img2 from '../../../../assets/img/blog/b_details02.jpg'
 import { Blogs} from "../blogs-data";
 import SectionTitle from "../../SectionTitle/SectionTitle";
+import SectionBlogTitle from "../../SectionTitle/SectionBlogTitle";
 
 const PostContent = () => {
     const location = useLocation()
@@ -22,11 +23,60 @@ const PostContent = () => {
 
         renderedContent.push(
         <div key={i}>
+            {matchingPost[headKey]?
+            <>
+            {matchingPost[headKey].title?
+            <>
+                <SectionTitle titleSec={matchingPost[headKey].title} description = {matchingPost[headKey].body?matchingPost[headKey].body:""}className="text-center" />
+                 {matchingPost[headKey].head0.title?
+                  <>
+                    <SectionBlogTitle titlefirst={matchingPost[headKey].head0.title?matchingPost[headKey].head0.title:""}   />
+                    <p>{matchingPost[headKey].head0.body0?matchingPost[headKey].head0.body0:""}</p> 
+                    <p>{matchingPost[headKey].head0.body0?matchingPost[headKey].head0.body1:""}</p> 
+                    <p>{matchingPost[headKey].head0.body0?matchingPost[headKey].head0.body2:""}</p> 
+                    <SectionBlogTitle titlefirst={matchingPost[headKey].head1.title?matchingPost[headKey].head1.title:""}   />
+                    <p>{matchingPost[headKey].head0.body1?matchingPost[headKey].head1.body0:""}</p> 
+                    <p>{matchingPost[headKey].head0.body1?matchingPost[headKey].head1.body1:""}</p> 
+                    <p>{matchingPost[headKey].head0.body1?matchingPost[headKey].head1.body2:""}</p> 
+                    <SectionBlogTitle titlefirst={matchingPost[headKey].head2.title?matchingPost[headKey].head2.title:""} />
+                    <p>{matchingPost[headKey].head0.body2?matchingPost[headKey].head2.body0:""}</p> 
+                    <p>{matchingPost[headKey].head0.body2?matchingPost[headKey].head2.body1:""}</p> 
+                    <p>{matchingPost[headKey].head0.body2?matchingPost[headKey].head2.body2:""}</p> 
+
+                    </>:
+                  <>
+                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head0']?matchingPost[headKey]['head0']:""} />
+                  <p>{matchingPost[headKey]['body0']?matchingPost[headKey]['body0']:""}</p>
+                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head1']?matchingPost[headKey]['head1']:""}  />
+                  <p>{matchingPost[headKey]['body1']?matchingPost[headKey]['body1']:""}</p>
+                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head2']?matchingPost[headKey]['head2']:""} />
+                  <p>{matchingPost[headKey]['body2']?matchingPost[headKey]['body2']:""}</p>
+                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head3']?matchingPost[headKey]['head3']:""} />
+                  <p>{matchingPost[headKey]['body3']?matchingPost[headKey]['body3']:""}</p>
+                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head4']?matchingPost[headKey]['head4']:""} description={matchingPost[headKey]['body4']?matchingPost[headKey]['body4']:""} />
+                  <p>{matchingPost[headKey]['body4']?matchingPost[headKey]['body4']:""}</p>
+               
+
+                </>
+                }
+            
+            {/* <h3>{matchingPost[headKey].body}</h3> */}
+            {/* <SectionTitle titlefirst={matchingPost[headKey].body} className="text-center" /> */}
+            {/* <SectionTitle titleSec={matchingPost[headKey]} className="text-center" /> */}
+            
+            </>:
+            <>
             <SectionTitle titlefirst={matchingPost[headKey]} className="text-center" />
             <p>{matchingPost[bodyKey]}</p>
+            </>
+            }
+            </>:""}
+            {/* <p>{matchingPost[bodyKey].body}</p>
+            <SectionTitle titleSec={matchingPost[headKey].title} className="text-center" /> */}
         </div>
         );
     }
+    
     return (
         <div className="details__content pb-30">
             {/* <h1>{matchingPost.heading}</h1> */}
@@ -35,11 +85,13 @@ const PostContent = () => {
                 <img src={matchingPost.imageUrl} alt="" />
             </div>
             
-            <h3>{matchingPost.title}</h3>
+            <h3 className="mt-4">{matchingPost.title}</h3>
             <p>{matchingPost.excerpt}</p>
+            <p>{matchingPost.excerpt1}</p>
 
             <div>{renderedContent}</div>
-            <p>{matchingPost.conclusion}</p>
+            
+            <h6  className="text-center" >{matchingPost.conclusion}</h6>
            
         </div>
     );

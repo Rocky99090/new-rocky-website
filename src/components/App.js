@@ -45,8 +45,8 @@ const App = () => {
           <Route exact path="/matchese-details" component={MatcheseDetails} />
           <Route exact path="/live-streaming" component={LiveStreaming} /> */}
           <Route exact path="/404"  element={<Error404 />} />
-          <Route exact path="/blog"  element={<BlogPost />} />
-          <Route exact path="/single-post/:id"  element={<SinglePost />} />
+          <Route exact path="/blogs"  element={<BlogPost />} />
+          <Route exact path="/blog/:id"  element={<SinglePost />} />
           {/* <Route exact path="/contact" component={ContactUs} /> */}
 
         </Routes>

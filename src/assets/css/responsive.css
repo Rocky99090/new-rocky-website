@@ -764,6 +764,9 @@
     .section-title h2 {
         font-size: 2em;
     }
+    .section-title h4 {
+        font-size: 1em !important;
+    }
 
     .services-content {
         padding       : 50px 28px;

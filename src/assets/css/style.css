@@ -2065,6 +2065,12 @@ label {
 	margin-bottom : 10px !important;
 	position      : relative;
 }
+.section-title h4 {
+	font-size     : 1.5em;
+	padding-bottom: 0;
+	margin-bottom : 10px !important;
+	position      : relative;
+}
 
 .section-title h2:before {
 	content           : "";

@@ -30,9 +30,9 @@ const SideBar = () => {
                     <ul>
                         {
                             recentPosts.map((data, index) => {
-                                const { title, id } = data;
+                                const { title, id , handle} = data;
                                 return (
-                                    <li key={index}> <Link to={`/single-post?id=${id}`}>{title}</Link>
+                                    <li key={index}> <Link to={`/blog/${handle}`}>{title}</Link>
                                     </li>
                                 );
                             })

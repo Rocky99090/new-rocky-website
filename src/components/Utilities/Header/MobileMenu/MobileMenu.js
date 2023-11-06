@@ -51,7 +51,7 @@ class MobileMenu extends Component {
                                 </li>
                         <li>
                             <Link onClick={() => this.props.onClose(false)}
-                                to={'/blog'}>
+                                to={'/blogs'}>
                                 {'Blog'}
                             </Link>
                         </li>

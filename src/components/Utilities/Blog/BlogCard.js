@@ -26,7 +26,7 @@ const BlogCard = ({ blogData }) => {
 
                             return (
                                 <div className="grid-item3 ml-4" key={index}>
-                                    <Link to={`/single-post/${handle}`}>
+                                    <Link to={`/blog/${handle}`}>
                                         <figure className="gallery-image">
                                             <img src={imageUrl} alt="img" className="img" />
                                             <figcaption>
