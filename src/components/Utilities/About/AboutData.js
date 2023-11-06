@@ -25,57 +25,25 @@ const AboutData = () => {
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="details__content">
-                    {mobile?
-                        <blockquote className='pt-3 pb-2 '>
-                            
-                            <h1 style={{ fontSize:"22px" }} className='text-center'>{data.heading}</h1>
-                      
-                        </blockquote>
-                        :
-                        <blockquote  >
-                        <h1 style={{ fontSize:"32px" }} className='text-center'>{data.heading}</h1>
-                        </blockquote>
-                    }
+                   
+                   <SectionTitle titlefirst={data.heading}  className="text-center" />
                         <div className="details__content-img">
                         <HeroThree />
                         </div>
-                        {mobile?
-                            <blockquote className='pt-3 pb-2 '>
-                                <h3 style={{ fontSize:"22px" }}>{data.title}</h3>
-                            </blockquote>
-                            :
-                            <blockquote  >
-                                <h3>{data.title}</h3>
-                            </blockquote>
-                        }
+                        <SectionTitle titleSec={data.title}  className="text-center" />
                         <h5>{data.excerptAbout}.</h5>
                         <p>{data.body1About}</p>
                         <p>{data.body2About}</p>
                         <p>{data.body3About}</p>
                         <p>{data.body4About}</p>
-                        {mobile?
-                            <blockquote className='pt-3 pb-2 '>
-                                <h3 style={{ fontSize:"22px" }}>{data.title2}</h3>
-                            </blockquote>
-                            :
-                            <blockquote  >
-                                <h3 >{data.title2}</h3>
-                            </blockquote>
-                        }
+                        <SectionTitle titlefirst={data.title2}  className="text-center" />
+                      
                         <h5>{data.excerptMission}</h5>
                         <p>{data.body1Mission}</p>
                         <p>{data.body2Mission}</p>
                         <p>{data.body3Mission}</p>
-
-                        {mobile?
-                            <blockquote className='pt-3 pb-2 '>
-                                <h3 style={{ fontSize:"22px" }}>{data.titleJoin}</h3>
-                            </blockquote>
-                            :
-                            <blockquote  >
-                                <h3>{data.titleJoin}</h3>
-                            </blockquote>
-                        }
+                        <SectionTitle titlefirst={data.titleJoin} className="text-center" />
+                        
                         <ul><h5>{data.excerptJoin}</h5>
                             <li><p>{data.body1Join}</p></li>
                             <li><p>{data.body2Join}</p></li>

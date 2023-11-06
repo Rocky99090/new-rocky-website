@@ -38,10 +38,10 @@ const BlogPost = () => {
                     <div className="grid col4 ">
                         {
                               psots.map((data, index) => {
-                                const { imageUrl, admin, title, excerpt,id } = data;
+                                const { imageUrl, admin, title, excerpt,id, handle } = data;
                                 return (
                                     <div className="grid-item1 ml-4" key={index}>
-                                        <Link to={`/single-post?id=${id}`}>
+                                        <Link to={`/single-post/${handle}`}>
                                             <figure className="gallery-image">
                                                 <img src={imageUrl} alt="img" className="img" />
                                                 <figcaption>

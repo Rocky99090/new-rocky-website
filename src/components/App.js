@@ -23,9 +23,10 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 const App = () => {
   return (
+    <div className="App">
     <ParallaxProvider>
     <BrowserRouter>
-      <div className="App">
+     
 
         {/* Header */}
         <Header />
@@ -45,16 +46,17 @@ const App = () => {
           <Route exact path="/live-streaming" component={LiveStreaming} /> */}
           <Route exact path="/404"  element={<Error404 />} />
           <Route exact path="/blog"  element={<BlogPost />} />
-          <Route exact path="/single-post"  element={<SinglePost />} />
+          <Route exact path="/single-post/:id"  element={<SinglePost />} />
           {/* <Route exact path="/contact" component={ContactUs} /> */}
 
         </Routes>
         
         {/* Footer */}
         <Footer />
-      </div>
+
     </BrowserRouter>
     </ParallaxProvider>
+    </div>
   );
 }
 

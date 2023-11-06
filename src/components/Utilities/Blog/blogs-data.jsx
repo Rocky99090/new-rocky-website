@@ -2,7 +2,8 @@
 import img from '../../../assets/img/blog/blog-img.jpg'
 export const Blogs = 
 [
-    {
+    {   
+        "handle":"cricket-betting-strategies-a-beginner’s-guide-with-rockybook",
         "id":0,
         "heading":"Cricket Betting Strategies",
         "title": "Cricket Betting Strategies: A Beginner’s Guide with RockyBook",

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 
 import img1 from '../../../../assets/img/blog/b_details01.jpg'
 import img2 from '../../../../assets/img/blog/b_details02.jpg'
@@ -6,10 +6,14 @@ import { Blogs} from "../blogs-data";
 import SectionTitle from "../../SectionTitle/SectionTitle";
 
 const PostContent = () => {
-     const params = new URLSearchParams(window.location.search);
-     const id = params.get('id');
+    const location = useLocation()
+    const params = useParams()
+    //  const params = new URLSearchParams(window.location.search);
+     console.log(location.pathname)
+     const id = params.id;
      const data = Blogs
-     const matchingPost = data.find(post => post.id === parseInt(id));
+     console.log(id)
+     const matchingPost = data.find(post => post.handle === id);
      const renderedContent = [];
 
     for (let i = 0; i < matchingPost.totalHeads; i++) {

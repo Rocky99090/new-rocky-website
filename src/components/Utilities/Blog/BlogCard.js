@@ -19,14 +19,14 @@ const BlogCard = ({ blogData }) => {
                 <div className="grid col4 ">
                     {
                           blogData.map((data, index) => {
-                            const { imageUrl, admin, title, excerpt,id,heading } = data;
+                            const { imageUrl, admin, title, excerpt,id,heading, handle } = data;
                             const words = excerpt.split(' ');
                             const truncatedText = isExpanded ? words.join(' ') : words.slice(0, 20).join(' ');
 
 
                             return (
                                 <div className="grid-item3 ml-4" key={index}>
-                                    <Link to={`/single-post?id=${id}`}>
+                                    <Link to={`/single-post/${handle}`}>
                                         <figure className="gallery-image">
                                             <img src={imageUrl} alt="img" className="img" />
                                             <figcaption>
