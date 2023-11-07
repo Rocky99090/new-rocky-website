@@ -6079,6 +6079,9 @@ section:hover .section-title h2:before {
 	width  : 33%;
 	margin : 0 5px 10px;
 	padding: 0;
+	@media screen and (max-width: 762px) {
+		width  : 100%;
+	}
 }
 
 .portfolio .col4 .grid-item .box-hover {

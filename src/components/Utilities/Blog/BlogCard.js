@@ -22,6 +22,8 @@ const BlogCard = ({ blogData }) => {
                             const { imageUrl, admin, title, excerpt,id,heading, handle } = data;
                             const words = excerpt.split(' ');
                             const truncatedText = isExpanded ? words.join(' ') : words.slice(0, 20).join(' ');
+                            const titleWords = title.split(' ');
+                            const truncatedTitle = isExpanded ? titleWords.join(' ') : titleWords.slice(0, 8).join(' ');
 
 
                             return (
@@ -31,7 +33,7 @@ const BlogCard = ({ blogData }) => {
                                             <img src={imageUrl} alt="img" className="img" />
                                             <figcaption>
                                                 
-                                                <h4>{title}</h4>
+                                                <h4>{truncatedTitle}...</h4>
                                                 <p>{truncatedText}</p>
                                                 {words.length > 10 && (
                                                     <h5 style={{display:"flex",flexDirection:"row-reverse"}} onClick={toggleExpand}>
