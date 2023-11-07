@@ -17,7 +17,6 @@ const SideBar = () => {
                             <a rel="nofollow" href='https://t.me/rockybook2121'>
                                 <i className="fab fa-telegram"></i>
                             </a>
-                            <Link  to={'#'}><i className="fab fa-facebook-f"></i></Link>
                             <a rel="nofollow" href='https://www.instagram.com/rockybook2121/'>
                                  <i className="fab fa-instagram"></i>
                             </a>

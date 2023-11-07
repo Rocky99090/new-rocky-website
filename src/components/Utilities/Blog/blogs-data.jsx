@@ -90,8 +90,8 @@ export const Blogs =
             
           },
         },
-        "excerpt": "ON YOUR MARKS, GET SET, GO!",
-        "excerpt1": " Are you ready to dive into the world of gaming with Rockybook and its partner sites? Here is an in-depth analysis of these platforms, highlighting their features, offerings, and the unique advantages that Rocky Book brings to the table.",
+        "excerpt1": "ON YOUR MARKS, GET SET, GO!",
+        "excerpt": " Are you ready to dive into the world of gaming with Rockybook and its partner sites? Here is an in-depth analysis of these platforms, highlighting their features, offerings, and the unique advantages that Rocky Book brings to the table.",
         "conclusion" : "At Rocky Book, we ensure that all these partner sites offer the convenience of 24/7 withdrawal and deposit services. It also means that you can access your funds at any time, adding flexibility and ease to the betting experience. We’ve partnered with these platforms to offer an exciting and diverse range of games and sports to be explored by you. With no limitations to your winning potential, you have the opportunity to make the most of your betting experience. For more details please remember to visit their sites respectively. We hope you're excited to embark on the thrilling journey of gambling and gaming beyond with our esteemed partners. May your gaming experience be enjoyable and rewarding. Happy gaming!"
       },
     // {
