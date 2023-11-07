@@ -91,7 +91,7 @@ const PostContent = () => {
 
             <div>{renderedContent}</div>
             
-            <h6  className="text-center" >{matchingPost.conclusion}</h6>
+            <span  className="text-center" >{matchingPost.conclusion}</span>
            
         </div>
     );
