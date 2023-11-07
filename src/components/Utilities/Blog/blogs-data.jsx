@@ -30,7 +30,7 @@ export const Blogs =
         "id":1,
         "heading":"Unveiling the Best Cricket Gaming Sites",
         "title": "Unveiling the Best Cricket Gaming Sites: DIAMONDEXCH, WILLSEXCH, R9EXCH, ROCKYBOOK247 and  DURGA247",
-        "imageUrl": img,
+        "imageUrl": img1,
         "totalHeads": 6,
         "head0" : {
           "title": "Khelo Dum Par Jeeto Bumper",
