@@ -1,6 +1,8 @@
 
 import img from '../../../assets/img/blog/blog-img.jpg'
 import img1 from '../../../assets/img/blog/rockblog2.jpg'
+import img2 from '../../../assets/img/blog/blog3.jpg'
+import img3 from '../../../assets/img/blog/blog4.jpg'
 export const Blogs = 
 [
     {   
@@ -31,7 +33,7 @@ export const Blogs =
         "heading":"Unveiling the Best Cricket Gaming Sites",
         "title": "Unveiling the Best Cricket Gaming Sites: DIAMONDEXCH, WILLSEXCH, R9EXCH, ROCKYBOOK247 and  DURGA247",
         "imageUrl": img1,
-        "totalHeads": 6,
+        "totalHeads": 3,
         "head0" : {
           "title": "Khelo Dum Par Jeeto Bumper",
           "body" : "",
@@ -93,6 +95,74 @@ export const Blogs =
         "excerpt1": "ON YOUR MARKS, GET SET, GO!",
         "excerpt": " Are you ready to dive into the world of gaming with Rockybook and its partner sites? Here is an in-depth analysis of these platforms, highlighting their features, offerings, and the unique advantages that Rocky Book brings to the table.",
         "conclusion" : "At Rocky Book, we ensure that all these partner sites offer the convenience of 24/7 withdrawal and deposit services. It also means that you can access your funds at any time, adding flexibility and ease to the betting experience. We’ve partnered with these platforms to offer an exciting and diverse range of games and sports to be explored by you. With no limitations to your winning potential, you have the opportunity to make the most of your betting experience. For more details please remember to visit their sites respectively. We hope you're excited to embark on the thrilling journey of gambling and gaming beyond with our esteemed partners. May your gaming experience be enjoyable and rewarding. Happy gaming!"
+      },
+      {   
+        "handle":"icc-cricket-world-cup-with-rockybook-tips-and-insights",
+        "id":2,
+        "heading":"ICC Cricket World Cup with Rockybook",
+        "title": "ICC Cricket World Cup with Rockybook: Tips and Insights",
+        "imageUrl": img2,
+        "totalHeads": 5,
+        "head0" : "Why is Rockybook number 1? ",
+        "body0" : "Let's understand why Rockybook is the place to be. We're not just any bookmaker; we are the world's No. 1. for sports lovers. With an extensive range of markets, competitive odds, and a user-friendly interface, Rockybook provides an unparalleled user experience.",
+        "head1" : "Understanding Cricket Basics",
+        "body1" : "If you're new to cricket gaming online, it's essential to grasp the basics. It involves predicting the outcome of a cricket match and placing bets on various markets such as match winner, top run-scorer, top wicket-taker, and more. As the ICC Cricket World Cup is one of the most significant events in the cricketing world, it offers numerous opportunities.",
+        "head2" : {
+          "title": "Tips for the ICC Cricket World Cup",
+          "body" : "",
+          "head0" : "Research is Key",
+          "body0" : "Before placing your bets, research the teams, players, and recent performances. Knowledge is your best friend when it comes to betting.",
+          "head1": "Diversify Your Bets",
+          "body1": "Don't put all your eggs in one basket. Explore different markets to spread your risk and increase your chances of winning.",
+          "head2": "Stay Informed",
+          "body2": "Keep an eye on team news, pitch conditions, and weather forecasts. These factors can significantly impact the outcome of a match.",
+          "head3": "Live Gaming",
+          "body3": "Take advantage of in-play betting to adjust your bets based on the match's evolving dynamics.",
+        },
+        "head3" : "Rockybook's Special Features",
+        "body3" : "At Rockybook, we provide unique features to enhance your experience in fantasy sports sites in India. Secure your winnings or minimize your losses with our cash-out option during the match. Keep an eye on our exclusive promotions to boost your betting bankroll.",
+       
+        "head4" : {
+          "title": "ICC Cricket World Cup Favorites",
+          "body" : "To get you started, let's take a look at the top favourites for the ICC Cricket World Cup. Keep these teams and players in mind when placing your bets",
+          "head0": "Team India",
+          "body0": "Known for their batting prowess, India is always a strong contender in the World Cup. They have beaten everyone they have faced in the group stages of the World Cup so far. Making them strong contenders in winning the World Cup.",
+          "head1": "Unlimited Winning",
+          "body1": "There are no limitations on how much you can win. Rocky Book lets you fly sky-high with no limits.",
+          "head2": "Mohamad Shami",
+          "body2": "The Indian pace bowler is a top pick for the leading wicket-taker market.",
+          "head3": "England",
+          "body3": "The reigning champions boast a well-rounded team with a powerful batting lineup.",
+          "head4": "Australia",
+          "body4": "The Aussies have a rich history of World Cup victories and are a team to watch out for.",
+        } ,
+        "excerpt1": "Khelo Dum Par Jeeto Bumper!",
+        "excerpt": " Welcome to the world of cricket with Rockybook! If you're new to the exciting realm of sports, you've come to the right place. We're here to guide you through the thrilling gaming journey of the ICC Cricket World Cup. So, grab your cricket bat, and let's get started on our quest to ",
+        "conclusion" : "The Cricket World Cup with Rocky book is not only entertaining but also an opportunity to win big. Remember, success in online gambling sites takes time and patience, so don't be discouraged by initial losses. Stay informed, diversify your bets, and manage your bankroll wisely. With Rockybook by your side, you're well on your way to becoming a cricket betting champion. So, what are you waiting for? Join us at the world's No. 1 Rockybook, and let's make this World Cup an unforgettable experience. 'Khelo Dum Par Jeeto Bumper!'"
+      },
+      {   
+        "handle":"maximize-your-thrills-with-live-gaming-experience-on-cricket-matches-with-rockyBook",
+        "id":3,
+        "heading":"Maximize Your Thrills With Live Gaming Experience",
+        "title": "Maximize Your Thrills With Live Gaming Experience on Cricket Matches with RockyBook",
+        "imageUrl": img3,
+        "totalHeads": 5,
+        "head0" : "KHELO DUM PAR JEETO BUMPAR",
+        "body0" : "One of the key advantages of choosing RockyBook is our commitment to providing you with the convenience of 24/7 withdrawal and deposit services. This means you have unrestricted access to your funds at any time, enhancing the flexibility and ease of your betting adventures. No more waiting around – your winnings are always within reach, adding an extra layer of excitement to your gaming experience.",
+        "head1" : "PLAY THE GAME OF YOUR CHOICE",
+        "body1" : "RockyBook has collaborated with premier platforms that offer an extensive and diverse range of games and sports for you to explore. Whether you're a cricket fanatic, a football freak, or interested in casino games, our partners have it all. With no limitations on your winning potential, you can make the most of your betting experience and explore the vast world of online gambling sites.",
+        "head2" : "THE BEST ONLINE CRICKET ID PROVIDER IN INDIA",
+        "body2" : "Our esteemed partners provide an environment where your winning potential knows no bounds. With a wide array of cricket betting sites, you can strategically place your bets and capitalize on every opportunity that arises during live cricket matches. RockyBook ensures that you have the tools and resources to make informed decisions, enhancing your chances of success.",
+       
+        "head3" : "BEST ONLINE GAMING PLATFORM IN INDIA",
+        "body3" : "We invite you to embark on a thrilling journey of gambling and gaming beyond with our trusted partners. The seamless integration of RockyBook with these top-tier betting sites allows you to experience the excitement of live betting on cricket matches like never before. The adrenaline rush, combined with the potential for substantial rewards, makes for an unforgettable gaming experience.",
+       
+        "head3" : "24/7 CRICKET ID ONLINE ",
+        "body3" : "To further enhance your convenience, RockyBook offers 24/7 betting services via WhatsApp conversation. Our dedicated team is always ready to assist you, answer your queries, and provide real-time support. The accessibility and immediacy of our services ensure that you never miss out on the action, even during the most crucial moments of a live cricket match.",
+        
+        "excerpt1": "At RockyBook, we take pride in being your trusted mediator for betting with some of the top betting sites.",
+        "excerpt": "At RockyBook, we take pride in being your trusted mediator for betting with some of the top betting sites.",
+        "conclusion" : "At RockyBook, we take pride in being your trusted mediator for betting with some of the top betting sites. Our commitment to providing 24/7 services, diverse gaming options, and seamless accessibility sets us apart. Visit our partner sites for more details, and may your gaming experience be not only enjoyable but also rewarding. Happy gaming!"
       },
     // {
     //     "id":2,

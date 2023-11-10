@@ -27,9 +27,10 @@ const PostContent = () => {
             <>
             {matchingPost[headKey].title?
             <>
-                <SectionTitle titleSec={matchingPost[headKey].title} description = {matchingPost[headKey].body?matchingPost[headKey].body:""}className="text-center" />
+                <SectionTitle titleSec={matchingPost[headKey].title?matchingPost[headKey].title:""} description = {matchingPost[headKey].body?matchingPost[headKey].body:""}className="text-center" />
                  {matchingPost[headKey].head0.title?
                   <>
+                  
                     <SectionBlogTitle titlefirst={matchingPost[headKey].head0.title?matchingPost[headKey].head0.title:""}   />
                     <p>{matchingPost[headKey].head0.body0?matchingPost[headKey].head0.body0:""}</p> 
                     <p>{matchingPost[headKey].head0.body0?matchingPost[headKey].head0.body1:""}</p> 
@@ -53,7 +54,7 @@ const PostContent = () => {
                   <p>{matchingPost[headKey]['body2']?matchingPost[headKey]['body2']:""}</p>
                   <SectionBlogTitle titlefirst={matchingPost[headKey]['head3']?matchingPost[headKey]['head3']:""} />
                   <p>{matchingPost[headKey]['body3']?matchingPost[headKey]['body3']:""}</p>
-                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head4']?matchingPost[headKey]['head4']:""} description={matchingPost[headKey]['body4']?matchingPost[headKey]['body4']:""} />
+                  <SectionBlogTitle titlefirst={matchingPost[headKey]['head4']?matchingPost[headKey]['head4']:""} />
                   <p>{matchingPost[headKey]['body4']?matchingPost[headKey]['body4']:""}</p>
                
 
