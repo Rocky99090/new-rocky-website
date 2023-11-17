@@ -16,6 +16,7 @@ import Box from '@mui/material/Box';
 import thumbnail from "../../../assets/img/logo/logo-01.png"
 import SectionTitle from '../../Utilities/SectionTitle/SectionTitle';
 import HeroThree from '../../Utilities/Hero/HeroThree/HeroThree';
+import HeroGallery from '../../Utilities/Hero/HeroTwo/HeroTwo';
 const videoUrls = [
     "https://www.youtube.com/watch?v=oXBj9528a9M",
     "https://www.youtube.com/watch?v=oXBj9528a9M",
@@ -63,7 +64,7 @@ const Gallery = () => {
         <React.Fragment>
 
             {/* Breadcrumb */}
-            <HeroThree />
+            <HeroGallery />
             {/* Gallery */}
             <section id="work" >
                 <div className="container  pb-50 ">

@@ -10,6 +10,7 @@ import postThumb3 from '../../../assets/img/blog/inner_b3.jpg';
 import HeroThree from "../../Utilities/Hero/HeroThree/HeroThree";
 import { Blogs } from "../../Utilities/Blog/blogs-data";
 import SectionTitle from "../../Utilities/SectionTitle/SectionTitle";
+import HeroBlog from "../../Utilities/Hero/HeroBlog/HeroBlog";
 const psots = Blogs
 
 const BlogPost = () => {
@@ -22,7 +23,7 @@ const BlogPost = () => {
       }, []);
     return (
         <React.Fragment>
-            <HeroThree />
+            <HeroBlog />
 
             <section className="inner-blog pb-90">
             <div className="row align-items-center mb-0 wow fadeInUp animated" data-animation="fadeInRight" data-delay=".4s">

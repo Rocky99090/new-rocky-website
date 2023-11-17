@@ -11,6 +11,7 @@ import thumbnail from '../../../assets/img/thumb.jpeg'
 import JsonData from './AboutUsData.json'
 import HeroThree from '../Hero/HeroThree/HeroThree';
 import useMediaQuery from '@mui/material/useMediaQuery';
+import HeroAbout from '../Hero/HeroOne/HeroOne';
 const AboutData = () => {
     const mobile = useMediaQuery('(max-width:792px)');
     const web = useMediaQuery('(min-width:793px)');
@@ -28,7 +29,7 @@ const AboutData = () => {
                    
                    <SectionTitle titlefirst={data.heading}  className="text-center" />
                         <div className="details__content-img">
-                        <HeroThree />
+                        <HeroAbout />
                         </div>
                         <SectionTitle titleSec={data.title}  className="text-center" />
                         <h5>{data.excerptAbout}.</h5>

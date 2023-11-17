@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import heroImgWeb from '../../../../assets/img/slider/1920.2jpg.jpg';
+import heroImg from '../../../../assets/img/slider/blog-1000.jpg';
 import heroImg2 from '../../../../assets/img/slider/rocky2-m.jpeg';
-import heroImg from '../../../../assets/img/slider/gallery1000.jpg';
+import heroImgWeb from '../../../../assets/img/slider/rock-blog.png';
 import heroImgWeb2 from '../../../../assets/img/slider/rocky2.jpeg';
 import sliderImg from '../../../../assets/img/slider/slider_img05.png';
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -11,7 +11,7 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 const heroData = [{
     bgImg: heroImg,
-}
+},
 ]
 const openWhatsapp = () => {
   window.location.href = "https://wa.link/rockybook?text=I want Id"
@@ -30,11 +30,10 @@ const MySlider = () => (
       <div>
         <img src={heroImgWeb} alt="Slide 1" />
       </div>
-
       {/* Add more slides as needed */}
     </Carousel>
   );
-const HeroGallery = () => {
+const HeroBlog = () => {
     const mobile = useMediaQuery('(max-width:792px)');
     const web = useMediaQuery('(min-width:793px)');
     const { bgImg, titleTag, title, btnText, sliderImg } = heroData;
@@ -62,4 +61,4 @@ const HeroGallery = () => {
         </>
     );
 }
-export default HeroGallery;
+export default HeroBlog;
