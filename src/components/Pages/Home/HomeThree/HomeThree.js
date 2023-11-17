@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import BlogThree from '../../../Utilities/Blog/BlogThree/BlogThree';
 import Team from '../../../Utilities/Team/Team';
 import Testimonial from '../../../Utilities/Testimonial/Testimonial';
@@ -10,6 +10,13 @@ import TrendingGames from '../../../Utilities/TrendingGames/TrendingGames'
 import HeroThree from '../../../Utilities/Hero/HeroThree/HeroThree';
 
 const HomeThree = () => {
+    useEffect(() => {
+        const windowHeight = window.innerHeight;
+        const targetPosition = 0;
+    
+        // Scroll to the calculated position
+        window.scrollTo(0, targetPosition);
+      }, []);
     return (
         <Fragment>
             {/* Testimonial Component */}

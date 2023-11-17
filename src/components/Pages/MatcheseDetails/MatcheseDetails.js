@@ -81,7 +81,7 @@ const MatcheseDetails = () => {
                             </div>
                             <p>{text}</p>
                             <div className="slider-btn2 mt-50">
-                                <Link to='/about' className="btn ss-btn">{'Join Now'}</Link>
+                                <Link to='/about-us' className="btn ss-btn">{'Join Now'}</Link>
                             </div>
                         </div>
                     </div>

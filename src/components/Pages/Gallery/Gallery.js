@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import Breadcrumb from '../../Utilities/Breadcrumb/Breadcrumb';
 
@@ -60,6 +60,13 @@ const galleryImgs = [
     },
 ]
 const Gallery = () => {
+    useEffect(() => {
+        const windowHeight = window.innerHeight;
+        const targetPosition = 0;
+    
+        // Scroll to the calculated position
+        window.scrollTo(0, targetPosition);
+      }, []);
     return (
         <React.Fragment>
 

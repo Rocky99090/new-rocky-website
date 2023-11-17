@@ -17,7 +17,7 @@ const AboutGame = () => {
                                 <SectionTitle titlefirst='We’re the best Gaming' titleSec='Company' />
                                 <p>{'Lpsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'}</p>
                                 <div className="slider-btn2 mt-20">
-                                    <Link to={'/about'} className="btn ss-btn">{'Learn More'}</Link>
+                                    <Link to={'/about-us'} className="btn ss-btn">{'Learn More'}</Link>
                                 </div>
                             </div>
                         </div>

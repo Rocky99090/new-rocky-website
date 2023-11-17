@@ -21,7 +21,7 @@ const Offcanvas = ({ onOpne, onClose }) => {
                             <Link to={'/'}>{'Home'}</Link>
                         </li>
                         <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                            <Link to={'/about'}>{'About Us'}</Link>
+                            <Link to={'/about-us'}>{'About Us'}</Link>
                         </li>
                         <li className="menu-item menu-item-type-custom menu-item-object-custom">
                             <Link to={'/service'}>{'Services'}</Link>
