@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1434bcb.css",
-    "main.js": "/static/js/main.39cf3f8b.js",
+    "main.css": "/static/css/main.5975357b.css",
+    "main.js": "/static/js/main.80a43dca.js",
     "static/media/10000000___n.mp4": "/static/media/10000000_5064819053625905_5200073652305046777_n.1aac199feffefb7984bf.mp4",
     "static/media/about-final.jpg": "/static/media/about-final.11f0dc2e33371bdca4fb.jpg",
     "static/media/hero-9.jpg": "/static/media/hero-9.ba92d9d4f55b15b1c41f.jpg",
@@ -12,6 +12,8 @@
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.ccc0de5a89a22f7df0a0.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.231be2c3598991f2e7b0.svg",
     "static/media/hero-8.jpg": "/static/media/hero-8.f98929dfd6c9472f3fee.jpg",
+    "static/media/rock-blog.png": "/static/media/rock-blog.bbb53a13b98f7a7c539c.png",
+    "static/media/rock-about.png": "/static/media/rock-about.a3daece205c18110bced.png",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.67baf29af14564cc5f35.svg",
     "static/media/map-contact.png": "/static/media/map-contact.34cff14b1bc28ca8cbb2.png",
     "static/media/fa-duotone-900.eot": "/static/media/fa-duotone-900.933243d3f4a403d075ab.eot",
@@ -31,10 +33,8 @@
     "static/media/rocky1.jpeg": "/static/media/rocky1.c4ed97156855ba1661ba.jpeg",
     "static/media/rocky2.jpeg": "/static/media/rocky2.0f4cae5b42a24fbb9930.jpeg",
     "static/media/blog-bg2.png": "/static/media/blog-bg2.b3114ab9c06e4a568502.png",
-    "static/media/slider_img01.png": "/static/media/slider_img01.732eddfbfbb82c5b8e3c.png",
     "static/media/video-bg.png": "/static/media/video-bg.fe2cc69f2d51480a55c1.png",
     "static/media/fa-duotone-900.woff": "/static/media/fa-duotone-900.e4d287fdc7be3fa2c22a.woff",
-    "static/media/new-rocky.jpeg": "/static/media/new-rocky.e615f0a6adf4e3e08e9a.jpeg",
     "static/media/rocky1-m.jpeg": "/static/media/rocky1-m.2c20958ed23e84e2f546.jpeg",
     "static/media/video-img2.png": "/static/media/video-img2.fcfb7002d2c7cf6fe96d.png",
     "static/media/guarantee3.jpeg": "/static/media/guarantee3.443bd0721b696b733aa7.jpeg",
@@ -54,6 +54,7 @@
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.0cc237d5f02e14d3a916.woff",
     "static/media/fa-duotone-900.woff2": "/static/media/fa-duotone-900.d3ae0e9030731f16a221.woff2",
     "static/media/about-hd.png": "/static/media/about-hd.c25316c95f6a72a1f06a.png",
+    "static/media/blog-1000.jpg": "/static/media/blog-1000.6aa2a03288ce9aeb65f2.jpg",
     "static/media/casino.jpeg": "/static/media/casino.c04136248de87a3193a7.jpeg",
     "static/media/andarbahar.jpeg": "/static/media/andarbahar.81235617b72f4362a378.jpeg",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.6f182a403c97e0e79648.woff2",
@@ -66,10 +67,12 @@
     "static/media/fa-brands-400.eot": "/static/media/fa-brands-400.59b4d0d406e282f4231f.eot",
     "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.c0f9dccd4ca01dd0217f.ttf",
     "static/media/video-img3.png": "/static/media/video-img3.f2ae9252eaadb86efdde.png",
+    "static/media/1920.2jpg.jpg": "/static/media/1920.2jpg.b422779996dc62b6b511.jpg",
     "static/media/b_details01.jpg": "/static/media/b_details01.34963478332a9f9dde3b.jpg",
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.d7475e39f70533c40ca5.woff2",
     "static/media/protfolio-img07.png": "/static/media/protfolio-img07.9fe663320bf287d2e4ea.png",
     "static/media/inner_b6.jpg": "/static/media/inner_b6.b819b8412d82dfc107d8.jpg",
+    "static/media/1000about.jpg": "/static/media/1000about.2c1d0a5e98cdaeccc14c.jpg",
     "static/media/soccer.jpeg": "/static/media/soccer.622d742551beb9320fd5.jpeg",
     "static/media/teenpatti.jpeg": "/static/media/teenpatti.ed8e9dd7e928e7adb551.jpeg",
     "static/media/inner_b2.jpg": "/static/media/inner_b2.1f72afb9b8f708448b62.jpg",
@@ -86,6 +89,7 @@
     "static/media/rocky-r.png": "/static/media/rocky-r.eb0126637e603a8dcfec.png",
     "static/media/match-bg2.png": "/static/media/match-bg2.578e58fde330d74dd406.png",
     "static/media/playingsite4.png": "/static/media/playingsite4.9030f2bfaf8f831db28a.png",
+    "static/media/gallery1000.jpg": "/static/media/gallery1000.6a32a629a60187c35825.jpg",
     "static/media/contant-hd.png": "/static/media/contant-hd.f48e69191f0b2f2f363e.png",
     "static/media/blog3.jpg": "/static/media/blog3.05aef1b425f49978db6d.jpg",
     "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.6e6a4a81a7f71c0ba134.woff2",
@@ -140,11 +144,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.a1434bcb.css.map": "/static/css/main.a1434bcb.css.map",
-    "main.39cf3f8b.js.map": "/static/js/main.39cf3f8b.js.map"
+    "main.5975357b.css.map": "/static/css/main.5975357b.css.map",
+    "main.80a43dca.js.map": "/static/js/main.80a43dca.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1434bcb.css",
-    "static/js/main.39cf3f8b.js"
+    "static/css/main.5975357b.css",
+    "static/js/main.80a43dca.js"
   ]
 }
