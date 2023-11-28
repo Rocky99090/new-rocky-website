@@ -18,7 +18,7 @@ const AboutData = () => {
     const id = 1;
     const data = JsonData.AboutUs
     const openWhatsapp = () => {
-        window.location.href = "https://wa.link/rockybook?text=I want Id"
+        window.location.href = "https://wa.link/rockywebsite?text=I want Id"
     }
     return (
         <section id="about" className="about-area about-p  pt-30  p-relative">

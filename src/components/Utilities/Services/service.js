@@ -1,6 +1,6 @@
 const ServiceItem = ({ icon, title, description }) => {
     const openWhatsapp = () => {
-        window.location.href = "https://wa.link/Rockycustomercare?text=I want Id"
+        window.location.href = "https://wa.link/rockywebsite?text=I want Id"
     }
     return (
         <div className="col-lg-4 col-md-6">
