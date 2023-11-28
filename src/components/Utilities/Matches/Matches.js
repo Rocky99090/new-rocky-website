@@ -225,6 +225,7 @@ const Matches = () => {
 
     return (
         <section id="match" className="match-area pt-10 pb-10">
+            {currentMatches.length>0?
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-12 text-center">
@@ -405,7 +406,7 @@ const Matches = () => {
                         );
                     })
                 } */}
-            </div>
+            </div>:""}
         </section>
     );
 }

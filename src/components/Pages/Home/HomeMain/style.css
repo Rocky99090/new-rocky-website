@@ -6,4 +6,31 @@
     top: 0;
     left: 0;
   }
-  
+/* Style for the floating WhatsApp icon */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Adjust the z-index as needed */
+}
+
+/* Style for the WhatsApp icon */
+.whatsapp-icon a {
+  display: block;
+  background-color: green; /* Change the color as needed */
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.whatsapp-icon a:hover {
+  background-color: #25d366; /* Change the hover color if desired */
+  transform: scale(1.1);
+}

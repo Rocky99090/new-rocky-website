@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import aboutBgImg from '../../../../assets/img/logo/rocky-r.png'
 import About from '../../../Utilities/About/About';
 import Services from '../../../Utilities/Services/Services';
@@ -19,21 +19,29 @@ import UpcomingSeries from '../../../Utilities/Matches/upcomingSeries';
 import HeroThree from '../../../Utilities/Hero/HeroThree/HeroThree';
 import HeroTwo from '../../../Utilities/Hero/HeroTwo/HeroTwo';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import { Box, Fab } from '@mui/material';
 
 const Home = () => {
+    const openWhatsapp = () => {
+        window.location.href = "https://wa.link/rockybook?text=I want Id"
+    }
+
     return (
-        <Fragment>
-            
-              <FloatingWhatsApp
-                statusMessage = "Typically replies within 1 min"
-                phoneNumber="+919612111111"
-                accountName="RockyBook"
-                allowEsc
-                allowClickAway
-                avatar = {aboutBgImg}
-                notification
-                notificationSound
-             />
+                <Fragment>
+                <Box
+  sx={{
+    position: 'fixed',
+    bottom: '20px',
+    right: '20px',
+    '& > :not(style)': { m: 1 },
+    zIndex: 1000 // Adjust the z-index as needed
+  }}
+>
+  <Fab onClick={openWhatsapp} style={{backgroundColor:"green"}} aria-label="add">
+  <i class="fab fa-whatsapp" style={{fontSize:"30px"}}></i>
+  </Fab>
+</Box>
+
             {/* Hero Component */}
             
             <HeroThree />
