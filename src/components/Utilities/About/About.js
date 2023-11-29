@@ -5,10 +5,9 @@ import features1 from '../../../assets/img/features/about-final.jpg';
 import features2 from '../../../assets/img/features/about-final1.jpg';
 import features3 from '../../../assets/img/features/about-img3.png';
 import SectionTitle from '../SectionTitle/SectionTitle';
-import reactVideo from '../../../assets/10000000_5064819053625905_5200073652305046777_n.mp4'
+import reactVideo from '../../../assets/video-rocky.mp4'
 import ReactPlayer from 'react-player'
 import thumbnail from '../../../assets/img/thumb.jpeg'
-
 const About = () => {
     const openWhatsapp = () => {
         window.location.href = "https://wa.link/rockywebsite?text=I want Id"

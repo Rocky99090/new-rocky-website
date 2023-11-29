@@ -23,7 +23,7 @@ import { Box, Fab } from '@mui/material';
 
 const Home = () => {
     const openWhatsapp = () => {
-        window.location.href = "https://wa.link/rockybook?text=I want Id"
+        window.location.href = "https://wa.link/rockywebsite?text=I want Id"
     }
 
     return (
