@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5975357b.css",
-    "main.js": "/static/js/main.57e6db64.js",
+    "main.js": "/static/js/main.7d3e85e7.js",
     "static/media/video-rocky.mp4": "/static/media/video-rocky.ae57791e63619a5f8557.mp4",
     "static/media/10000000___n.mp4": "/static/media/10000000_5064819053625905_5200073652305046777_n.1aac199feffefb7984bf.mp4",
     "static/media/about-final.jpg": "/static/media/about-final.11f0dc2e33371bdca4fb.jpg",
@@ -13,8 +13,6 @@
     "static/media/fa-regular-400.svg": "/static/media/fa-regular-400.ccc0de5a89a22f7df0a0.svg",
     "static/media/fa-solid-900.svg": "/static/media/fa-solid-900.231be2c3598991f2e7b0.svg",
     "static/media/hero-8.jpg": "/static/media/hero-8.f98929dfd6c9472f3fee.jpg",
-    "static/media/rock-blog.png": "/static/media/rock-blog.bbb53a13b98f7a7c539c.png",
-    "static/media/rock-about.png": "/static/media/rock-about.a3daece205c18110bced.png",
     "static/media/fa-brands-400.svg": "/static/media/fa-brands-400.67baf29af14564cc5f35.svg",
     "static/media/map-contact.png": "/static/media/map-contact.34cff14b1bc28ca8cbb2.png",
     "static/media/fa-duotone-900.eot": "/static/media/fa-duotone-900.933243d3f4a403d075ab.eot",
@@ -28,12 +26,14 @@
     "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.deb100ec94ec63cec6e7.ttf",
     "static/media/blog-img.jpg": "/static/media/blog-img.8b40282b81d5dd6e2f88.jpg",
     "static/media/protfolio-img01.png": "/static/media/protfolio-img01.22bac5f46e40537366f7.png",
+    "static/media/banner-blog.jpg": "/static/media/banner-blog.52d852b595c877d65d38.jpg",
     "static/media/tennis.jpeg": "/static/media/tennis.331066be5448edadad57.jpeg",
     "static/media/rocky2-m.jpeg": "/static/media/rocky2-m.ff6ac1da0b24aa027287.jpeg",
     "static/media/slider_img_bg.png": "/static/media/slider_img_bg.248d3301542e97679a8f.png",
     "static/media/rocky1.jpeg": "/static/media/rocky1.c4ed97156855ba1661ba.jpeg",
     "static/media/rocky2.jpeg": "/static/media/rocky2.0f4cae5b42a24fbb9930.jpeg",
     "static/media/blog-bg2.png": "/static/media/blog-bg2.b3114ab9c06e4a568502.png",
+    "static/media/banner-about-us.jpg": "/static/media/banner-about-us.2446af72aa698935478f.jpg",
     "static/media/video-bg.png": "/static/media/video-bg.fe2cc69f2d51480a55c1.png",
     "static/media/fa-duotone-900.woff": "/static/media/fa-duotone-900.e4d287fdc7be3fa2c22a.woff",
     "static/media/rocky1-m.jpeg": "/static/media/rocky1-m.2c20958ed23e84e2f546.jpeg",
@@ -51,11 +51,12 @@
     "static/media/thumb.jpeg": "/static/media/thumb.849a126d2dac898dee27.jpeg",
     "static/media/protfolio-img05.png": "/static/media/protfolio-img05.e51bbbd922890cf28bc2.png",
     "static/media/hero-5.jpg": "/static/media/hero-5.838e82375997ec046d51.jpg",
+    "static/media/blog.jpg": "/static/media/blog.a6d729c41bcc5c0ccd25.jpg",
     "static/media/fa-light-300.woff2": "/static/media/fa-light-300.9edbabc6bdccca123a05.woff2",
     "static/media/fa-solid-900.woff": "/static/media/fa-solid-900.0cc237d5f02e14d3a916.woff",
     "static/media/fa-duotone-900.woff2": "/static/media/fa-duotone-900.d3ae0e9030731f16a221.woff2",
     "static/media/about-hd.png": "/static/media/about-hd.c25316c95f6a72a1f06a.png",
-    "static/media/blog-1000.jpg": "/static/media/blog-1000.6aa2a03288ce9aeb65f2.jpg",
+    "static/media/about.jpg": "/static/media/about.c0d4746ef20d6d4dd1ab.jpg",
     "static/media/casino.jpeg": "/static/media/casino.c04136248de87a3193a7.jpeg",
     "static/media/andarbahar.jpeg": "/static/media/andarbahar.81235617b72f4362a378.jpeg",
     "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.6f182a403c97e0e79648.woff2",
@@ -73,7 +74,6 @@
     "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.d7475e39f70533c40ca5.woff2",
     "static/media/protfolio-img07.png": "/static/media/protfolio-img07.9fe663320bf287d2e4ea.png",
     "static/media/inner_b6.jpg": "/static/media/inner_b6.b819b8412d82dfc107d8.jpg",
-    "static/media/1000about.jpg": "/static/media/1000about.2c1d0a5e98cdaeccc14c.jpg",
     "static/media/soccer.jpeg": "/static/media/soccer.622d742551beb9320fd5.jpeg",
     "static/media/teenpatti.jpeg": "/static/media/teenpatti.ed8e9dd7e928e7adb551.jpeg",
     "static/media/inner_b2.jpg": "/static/media/inner_b2.1f72afb9b8f708448b62.jpg",
@@ -146,10 +146,10 @@
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.5975357b.css.map": "/static/css/main.5975357b.css.map",
-    "main.57e6db64.js.map": "/static/js/main.57e6db64.js.map"
+    "main.7d3e85e7.js.map": "/static/js/main.7d3e85e7.js.map"
   },
   "entrypoints": [
     "static/css/main.5975357b.css",
-    "static/js/main.57e6db64.js"
+    "static/js/main.7d3e85e7.js"
   ]
 }
