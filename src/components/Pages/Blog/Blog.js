@@ -23,7 +23,7 @@ const BlogPost = () => {
       }, []);
     return (
         <React.Fragment>
-            <HeroBlog />
+      <HeroBlog />
 
             <section className="inner-blog pb-90">
             <div className="row align-items-center mb-0 wow fadeInUp animated" data-animation="fadeInRight" data-delay=".4s">

@@ -38,17 +38,10 @@ class MobileMenu extends Component {
                         </li>
                         <li>
                             <Link onClick={() => this.props.onClose(false)}
-                                to={'/about'}>
+                                to={'/about-us'}>
                                 {'About Us'}
                             </Link>
                         </li>
-                        <li>
-                                    <Link
-                                        onClick={() => this.props.onClose(false)}
-                                        to={'/gallery'}>
-                                        {'Gallery'}
-                                    </Link>
-                                </li>
                         <li>
                             <Link onClick={() => this.props.onClose(false)}
                                 to={'/blogs'}>

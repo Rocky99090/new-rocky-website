@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import heroImg from '../../../../assets/img/slider/rock-about.png';
+import heroImg from '../../../../assets/img/slider/banner-about-us.jpg';
 import heroImg2 from '../../../../assets/img/slider/rocky2-m.jpeg';
-import heroImgWeb from '../../../../assets/img/slider/1000about.jpg';
+import heroImgWeb from '../../../../assets/img/slider/about.jpg';
 import heroImgWeb2 from '../../../../assets/img/slider/rocky2.jpeg';
 import sliderImg from '../../../../assets/img/slider/slider_img05.png';
 import { ParallaxProvider } from 'react-scroll-parallax';

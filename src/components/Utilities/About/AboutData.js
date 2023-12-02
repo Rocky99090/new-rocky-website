@@ -12,6 +12,7 @@ import JsonData from './AboutUsData.json'
 import HeroThree from '../Hero/HeroThree/HeroThree';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import HeroAbout from '../Hero/HeroOne/HeroOne';
+import { Helmet } from 'react-helmet';
 const AboutData = () => {
     const mobile = useMediaQuery('(max-width:792px)');
     const web = useMediaQuery('(min-width:793px)');
@@ -22,16 +23,24 @@ const AboutData = () => {
     }
     return (
         <section id="about" className="about-area about-p  pt-30  p-relative">
+             <Helmet>
+        <title>Best Online Cricket ID Provider in India | Rocky Book</title>
+        <meta name="keywords" content="online cricket id provider in India, best cricket id provider in India, get online cricket id India, best online cricket betting id provider, cricket id online" />
+        <meta name="title" content="Best Online Cricket ID Provider in India | Rocky Book" />
+      
+        <meta name="description" content="Best Online Cricket ID Provider - Explore the best online cricket experiences with Rocky Book. We are leading cricket id provider, offers wide range of id with different platforms." />
+        {/* Other meta tags */}
+      </Helmet>
+            <HeroAbout />
             <div className="container ">
                 <div className="row">
                     <div className="col-lg-12 col-md-12 col-sm-12">
                     <div className="details__content">
                    
-                   <SectionTitle titlefirst={data.heading}  className="text-center" />
                         <div className="details__content-img">
-                        <HeroAbout />
+                        
                         </div>
-                        <SectionTitle titleSec={data.title}  className="text-center" />
+                        <SectionTitle titleSec={data.heading}  className="text-center" />
                         <h5>{data.excerptAbout}.</h5>
                         <p>{data.body1About}</p>
                         <p>{data.body2About}</p>
