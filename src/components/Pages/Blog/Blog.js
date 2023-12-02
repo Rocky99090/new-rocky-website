@@ -26,13 +26,7 @@ const BlogPost = () => {
       <HeroBlog />
 
             <section className="inner-blog pb-90">
-            <div className="row align-items-center mb-0 wow fadeInUp animated" data-animation="fadeInRight" data-delay=".4s">
-                        <div className="col-lg-12 text-center">
-                            <SectionTitle
-                                titlefirst='OUR'
-                                titleSec='BLOGS' />
-                        </div>
-                    </div>
+
                     <section id="work" className="pt-0 pb-10" >
                 <div className="portfolio ">
                     
