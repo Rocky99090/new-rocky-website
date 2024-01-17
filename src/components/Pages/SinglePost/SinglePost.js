@@ -6,9 +6,6 @@ import PostNavigation from "../../Utilities/Blog/SinglePost/PostNavigation";
 import RelatedPost from "../../Utilities/Blog/SinglePost/RelatedPost";
 import AuthorInfo from "../../Utilities/Blog/SinglePost/AuthorInfo";
 import PostContent from "../../Utilities/Blog/SinglePost/PostContent";
-import Comments from "../../Utilities/Blog/SinglePost/Comments";
-import CommentForm from "../../Utilities/Blog/SinglePost/CommentForm";
-import HeroTwo from "../../Utilities/Hero/HeroThree/HeroThree";
 import { Helmet } from "react-helmet";
 import HeroBlog from "../../Utilities/Hero/HeroBlog/HeroBlog";
 
