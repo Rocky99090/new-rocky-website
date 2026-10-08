@@ -86,7 +86,7 @@ const WorkGallery = () => {
         setItems(filterUpdate);
     }
     const openWhatsapp = () => {
-        window.location.href = "https://wa.link/rockywebsite?text=I want Id"
+        window.location.href = "https://mywalink.link/r/rockywebsite"
     }
 
     return (
