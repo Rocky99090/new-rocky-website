@@ -24,7 +24,7 @@ import { Helmet } from 'react-helmet';
 
 const Home = () => {
     const openWhatsapp = () => {
-        window.location.href = "https://mywalink.link/r/rockywebsite"
+        window.location.href = "https://mywalink.link/rockywebsite"
     }
 
     return (
