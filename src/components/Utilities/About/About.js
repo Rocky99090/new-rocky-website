@@ -10,7 +10,7 @@ import ReactPlayer from 'react-player'
 import thumbnail from '../../../assets/img/thumb.jpeg'
 const About = () => {
     const openWhatsapp = () => {
-        window.location.href = "https://mywalink.link/r/rockywebsite"
+        window.location.href = "https://mywalink.link/rockywebsite"
     }
     return (
         <section id="about" className="about-area about-p   pb-40 p-relative" style={{ background: `url(${aboutBgImg}) no-repeat center center / cover` }}>
